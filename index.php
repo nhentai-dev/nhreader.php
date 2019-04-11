@@ -2,7 +2,7 @@
    $id= $_GET['g'];
    if (isset($_GET['g'])) {
    $url1 = "https://apis.nhent.ai/g/$id";
-   $url2 = "https://nhent.ai/api/gallery/$id";
+   $url2 = "https://nhproxy.glitch.me/api/gallery/$id";
     } else {
         echo "";
     }
