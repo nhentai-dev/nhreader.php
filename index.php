@@ -1,7 +1,7 @@
 <?php
    $id= $_GET['g'];
    if (isset($_GET['g'])) {
-   $url1 = "https://apis.nhent.ai/g/$id";
+   $url1 = "https://nhentai.net/g/$id";
    $url2 = "https://nhproxy.glitch.me/api/gallery/$id";
     } else {
         echo "";
